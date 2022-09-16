@@ -12,7 +12,7 @@ function init_ParticleSystem() {
 }
 
 function addParticles(pCount) {
-    const texture = PIXI.Texture.from('../assets/arrow_white.png');
+    const texture = PIXI.Texture.from('https://raw.githubusercontent.com/Zeenus/Euler-Physics-Integration/master/assets/arrow_white.png');
     for (let i = 0; i < pCount; i++) {
         const p = new PIXI.Sprite(texture);
         p.anchor.set(0.5);
